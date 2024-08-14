@@ -280,13 +280,13 @@ body {
   gap: 4;
 }
 
-/*How it work section*/
+/*How it works*/
 .section-product {
-  padding: 9.6rem 0;
+  padding: 3.6rem 0;
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 125rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -294,7 +294,7 @@ body {
 .grid {
   display: grid;
   align-items: center;
-  gap: 12.6rem;
+  gap: 12.5rem;
 }
 
 .grid--2-cols {
@@ -324,4 +324,56 @@ body {
 
 .step-img {
   width: 90%;
+}
+
+/*Our experts section*/
+.section-doctors {
+  padding: 10.2rem 0;
+  background-color: #f9f9f9;
+}
+
+.heading-secondary {
+  margin-bottom: 4rem;
+  color: #333;
+}
+
+.doctors-grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.doctor-card {
+  position: relative;
+  width: 24rem;
+  height: 28rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.doctor-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.doctor-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.doctor-name {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.doctor-expertise {
+  font-size: 1.4rem;
 }
