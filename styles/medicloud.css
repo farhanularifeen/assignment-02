@@ -509,3 +509,46 @@ body {
 .btn--submit:hover {
   background-color: #1e6b2a;
 }
+
+/* Footer */
+.footer {
+  background-color: #fdf2e9;
+  padding: 3.4rem 4.8rem;
+  color: #666;
+}
+
+.footer-container {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 4.5rem;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right p {
+  margin: 0.6rem 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2.4rem;
+}
+
+.footer-bottom hr {
+  border: 0;
+  height: 1px;
+  background-color: #444;
+  margin-bottom: 1.2rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 1.4rem;
+}
