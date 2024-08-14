@@ -377,3 +377,46 @@ body {
 .doctor-expertise {
   font-size: 1.4rem;
 }
+
+/*Consultation*/
+.section-consultation {
+  padding: 5.8rem 0;
+  background-color: #f0f9f8;
+}
+
+.consultation-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem; /* Gap between text and image */
+  flex-wrap: wrap;
+}
+
+.consultation-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.heading-secondary {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.consultation-description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+  color: #666;
+}
+
+.consultation-img-box {
+  flex: 1;
+  max-width: 50%;
+}
+
+.consultation-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  padding: 2rem; /* Padding around the image */
+}
