@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*Percentage of user's browser font-size seting*/
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/*Hero section*/
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  /* Using only width element will not occupy the img as responsively */
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+/*Nav bar and logo*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 4.4rem;
+}
+
+/*Navigation*/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #666;
+  gap: 2;
+  font-weight: 500;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #333;
+}
+
+/*General Component and Heading work*/
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 600;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  gap: 2px;
+}
+
+.heading-tertiary {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  gap: 2px;
+}
+
+/*Medicine company logos*/
+.section-featured {
+  padding: 4.8rem 0 3.2rem;
+}
+
+.heading-featured-in {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #444;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.logos img {
+  height: 5rem;
+  filter: grayscale(50%);
+}
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #40c057;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.3px;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 6px;
+
+  /* Color showing animation property*/
+  transition: all 700ms;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #2f9e44;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #267e36;
+  color: #fff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #666;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #ffd43b;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.delivered-products {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-img {
+  display: flex;
+}
+
+.delivered-img img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.2rem;
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-img img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  gap: 2;
+}
+
+.delivered-text span {
+  color: #267e36;
+  font-weight: 900;
+  gap: 4;
+}
+
+/****************/
+/*How it work section*/
+.section-product {
+  padding: 9.6rem 0;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.step-number {
+  font-size: 9.8rem;
+  font-weight: 500;
+  color: #eee;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.step-img-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.8rem;
+  justify-items: center;
+}
+
+.step-img {
+  width: 90%;
+}
